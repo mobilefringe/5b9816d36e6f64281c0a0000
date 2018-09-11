@@ -30,7 +30,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4 footer_newsletter">
                     <p class="footer_heading">NEWSLETTER SUBSCRIPTION</p>
                     <label for="emailAddress" class="accessibility">Enter Email Address</label>
-                    <input id="emailAddress" v-model="newsletter_email" type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" required  @keyup.enter=="newsletterRoute"/>
+                    <input id="emailAddress" v-model="newsletter_email" type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" required  @keyup.enter="newsletterRoute"/>
                     <button @click="newsletterRoute" class="newsletter_btn animated_btn">Subscribe</button>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 footer_insta">
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-sm-8 col-md-6">
                     <p class="footer_text"><a :href="siteInfo.googleMapsURL" target="_blank">{{ getPropertyAddress }}</a></p> 
-                    <p class="footer_text"><a :href="'tel:' +  property.contact_phone">{{ property.contact_phone }}</a> | <a href=" /pages/lindsaysquare-privacy-policy">Privacy Policy</a> | <router-link to="/jobs" exact>Jobs</router-link> | <a :href="siteInfo.propertyManagementURL" target="_blank">{{ siteInfo.propertyManagementName }}</a></p>
+                    <p class="footer_text"><a :href="'tel:' +  property.contact_phone">{{ property.contact_phone }}</a> | <a href=" /pages/malvern-privacy-policy">Privacy Policy</a> | <router-link to="/jobs" exact>Jobs</router-link> | <a :href="siteInfo.propertyManagementURL" target="_blank">{{ siteInfo.propertyManagementName }}</a></p>
                 </div>
             </div>
         </section>
