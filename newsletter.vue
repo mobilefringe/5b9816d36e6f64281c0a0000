@@ -35,7 +35,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label for="fieldzyklki">Postal Code</label>
-                                        <input id="fieldzyklki" class="margin_20 form-control" name="cm-f-vntll" type="text" placeholder="Postal Code"/>
+                                        <input id="fieldzyklki" class="margin_20 form-control" name="cm-f-vfulr" type="text" placeholder="Postal Code"/>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="cm-vuutyk-vuutyk">Email</label>
