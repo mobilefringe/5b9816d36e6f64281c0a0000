@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Stores",
+        "href": "#",
+        "id": "menu1",
+        "sub_menu": [
+            {
+                "name": "Stores",
+                "href": "/stores"
+            },
+            {
+                "name": "Centre Map",
+                "href": "/map"
+            }
+        ]
+    },
+    {
+        "name": "Promotions",
+        "href": "/promotions"
+    },
+    {
+        "name": "Events",
+        "href": "/events"
+    },
+    {
+        "name": "Contact Us",
+        "id": "menu2",
+        "href": "",
+        "sub_menu": [
+            {
+                "name": "Hours",
+                "href": "/hours"
+            },
+            {
+                "name": "Contact Us",
+                "href": "/contact_us"
+            },
+            {
+                "name": "Jobs",
+                "href": "/jobs"
+            },
+            {
+                "name": "Services",
+                "href": "/pages/malvern-services"
+            }
+            
+        ]
+    },
+    {
+        "name": "Leasing",
+        "href": "/leasing"
+    }
+]
