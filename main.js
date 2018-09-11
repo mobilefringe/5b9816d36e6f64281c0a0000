@@ -81,7 +81,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
                 social_media: [
                     {
                         name: "Facebook",
-                        url: "https://www.facebook.com/",
+                        url: "https://www.facebook.com/Malvern-Town-Centre-152537281457466/",
                         iconClass: "fab fa-facebook-f"
                     }
                     // {
