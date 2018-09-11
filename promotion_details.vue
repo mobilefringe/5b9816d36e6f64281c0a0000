@@ -92,7 +92,7 @@
                             }
                         } else {
                             if  (_.includes(this.currentPromo.promo_image_url_abs, 'missing')) {
-                                this.currentPromo.image_url = site.default_logo_url//"//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/png/1531496516000/promo placeholder.png";    
+                                this.currentPromo.image_url = site.default_logo_url;//"//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/png/1531496516000/promo placeholder.png";    
                             }
                         }
                     }
