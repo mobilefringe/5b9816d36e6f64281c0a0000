@@ -14,7 +14,7 @@
                             <img class="img_max" src="//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/jpeg/1531500156000/sidebanner4.jpg" alt="" />    
                         </div>
                         <div class="details_col_9">
-                            <h3 class="inside_page_header">Permanent Leasing</h3>
+                            <h3 class="inside_page_header">Long Term Leasing</h3>
                             <div class="margin_40 page_body" v-if="permLeasing" v-html="permLeasing.body"></div>
         					<form class="form-horizontal padding_top_20" action="form-submit" v-on:submit.prevent="validateBeforeSubmitPerm">
         						<div class="form-group ">
