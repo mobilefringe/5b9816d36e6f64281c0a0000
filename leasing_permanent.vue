@@ -153,7 +153,7 @@
                             send_data.url = "https://www.mallmaverick.com/send_contact_email";
                             var perm_formdata = {}; //JSON.stringify(this.serializeObject(this.form_data));
                             perm_formdata.send_to = "huntleyj@davpart.com@davpart.com";
-                            perm_formdata.subject = "Gerrard Square Permanent Leasing Form"; 
+                            perm_formdata.subject = this.property.name +" Permanent Leasing Form"; 
                             perm_formdata.body = {};
                             perm_formdata.body["Legal Name of Organization"] =  this.form_data.legalName;
                              
