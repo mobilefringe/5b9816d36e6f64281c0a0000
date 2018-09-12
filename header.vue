@@ -5,7 +5,7 @@
                 <div class="col-md-3">
                     <div class="site_logo">
                         <router-link to="/">
-                            <img :alt="siteInfo.siteName" src="//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/jpeg/1536076279977/LSLogo.jpg">
+                            <img :alt="siteInfo.siteName" src="//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/png/1536766143039/MalvernLogo.png">
                         </router-link>
                     </div>
                     <div @click="showMenu = !showMenu" :class="{ open: showMenu }" id="menu-icon">
