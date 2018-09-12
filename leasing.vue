@@ -23,7 +23,7 @@
                             </div>
                             <div>
                                 <router-link to="/leasing/specialty" class="hvr-icon-forward">
-    	                            <i class="fa fa-caret-right hvr-icon"></i> <span class="read_more">Specialty Leasing Form</span>
+    	                            <i class="fa fa-caret-right hvr-icon"></i> <span class="read_more">Short Term Leasing Form</span>
                                 </router-link>
                             </div>
                         </div>
