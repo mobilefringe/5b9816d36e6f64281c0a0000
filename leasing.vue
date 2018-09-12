@@ -18,7 +18,7 @@
                         <div class="col-sm-12">
                             <div>
                                 <router-link to="/leasing/permanent" class="hvr-icon-forward">
-    	                            <i class="fa fa-caret-right hvr-icon"></i> <span class="read_more">Permanent Leasing Form</span>
+    	                            <i class="fa fa-caret-right hvr-icon"></i> <span class="read_more">Long Term Leasing Form</span>
                                 </router-link>
                             </div>
                             <div>
