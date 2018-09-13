@@ -81,17 +81,7 @@
 						this.$router.replace({ name: '404' });
 					}
 					else {
-					   // if(this.currentEvent != null) {
-        //                     if (this.currentEvent.eventable_type === "Store"){
-        //                         if (_.includes(this.currentEvent.event_image_url_abs, 'missing')) {
-        //                             this.currentEvent.image_url = this.currentEvent.store.store_front_url_abs; 
-        //                         }
-        //                     } else {
-        //                         if (_.includes(this.currentEvent.event_image_url_abs, 'missing')) {
-        //                             this.currentEvent.image_url = "//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/png/1531496511000/event placeholder.png";    
-        //                         }
-        //                     }
-        //                 }
+					    _.includes(this.currentEvent.event_image_url_abs, 'missing')
 					}
 					this.dataLoaded = true;
 				}, error => {
