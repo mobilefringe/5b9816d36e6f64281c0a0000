@@ -85,22 +85,22 @@
 			},
 			watch: {
                 currentPromo : function (){
-                    if(this.currentPromo != null) {
-                        if (this.currentPromo.promotionable_type === "Store"){
-                            if  (_.includes(this.currentPromo.promo_image_url_abs, 'missing')) {
-                                if(_.includes(this.currentPromo.store.store_front_url_abs, 'missing')){
-                                    this.currentPromo.image_url = site.default_logo_url;
-                                }
-                                else {
-                                    this.currentPromo.image_url = this.currentPromo.store.store_front_url_abs; 
-                                }
-                            }
-                        } else {
-                            if  (_.includes(this.currentPromo.promo_image_url_abs, 'missing')) {
-                                this.currentPromo.image_url = site.default_logo_url;//"//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/png/1531496516000/promo placeholder.png";    
-                            }
-                        }
-                    }
+                    // if(this.currentPromo != null) {
+                        // if (this.currentPromo.promotionable_type === "Store"){
+                        //     if  (_.includes(this.currentPromo.promo_image_url_abs, 'missing')) {
+                        //         if(_.includes(this.currentPromo.store.store_front_url_abs, 'missing')){
+                        //             this.currentPromo.image_url = site.default_logo_url;
+                        //         }
+                        //         else {
+                        //             this.currentPromo.image_url = this.currentPromo.store.store_front_url_abs; 
+                        //         }
+                        //     }
+                        // } else {
+                        //     if  (_.includes(this.currentPromo.promo_image_url_abs, 'missing')) {
+                        //         this.currentPromo.image_url = site.default_logo_url;//"//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/png/1531496516000/promo placeholder.png";    
+                        //     }
+                        // }
+                    // }
                 }
             },
             computed: {
