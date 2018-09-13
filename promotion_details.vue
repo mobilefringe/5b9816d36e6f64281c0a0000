@@ -89,7 +89,7 @@
                         if (this.currentPromo.promotionable_type === "Store"){
                             if  (_.includes(this.currentPromo.promo_image_url_abs, 'missing')) {
                                 if(_.includes(this.currentPromo.store.store_front_url_abs, 'missing')){
-                                    this.currentPromo.image_url = this.currentPromo.store.store_front_url_abs; 
+                                    this.currentPromo.image_url = site.default_logo_url;
                                 }
                                 else {
                                     this.currentPromo.image_url = this.currentPromo.store.store_front_url_abs; 
