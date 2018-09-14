@@ -390,8 +390,10 @@ img{
 	font-family: Avenir-Book;
 	text-transform: uppercase;
 	&:hover {
-	    color: $primary;
-	    text-decoration: underline;
+	    a{
+	        color: $primary;
+	        text-decoration: underline;
+	    }
 	}
 }
 #primary_nav ul .menu_item:hover > ul {
