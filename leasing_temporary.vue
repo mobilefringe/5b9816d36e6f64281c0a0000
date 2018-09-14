@@ -11,10 +11,10 @@
                 <div class="main_container mobile_padding margin_30">
                     <div class="details_row">
                         <div class="details_col_3 hidden_phone">
-                            <img class="img_max" src="//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/jpeg/1531500156000/sidebanner4.jpg" alt="" />    
+                             <img class="img_max" src="http://via.placeholder.com/220x600" alt="" />    
                         </div>
                         <div class="details_col_9">
-        				    <h3 class="inside_page_header">Specialty Short Term Leasing</h3>
+        				    <h3 class="inside_page_header">Short Term Leasing</h3>
                             <div class="margin_40 page_body" v-if="tempLeasing" v-html="tempLeasing.body"></div>
                             <form class="form-horizontal padding_top_20" action="form-submit" v-on:submit.prevent="validateBeforeSubmitTemp">
         						<div class="form-group ">
