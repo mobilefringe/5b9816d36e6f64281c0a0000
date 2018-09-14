@@ -391,7 +391,7 @@ img{
 	text-transform: uppercase;
 	&:hover {
 	    a{
-	        color: $primary;
+	        color: $secondary;
 	        text-decoration: underline;
 	    }
 	}
