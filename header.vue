@@ -120,7 +120,7 @@
                     siteInfo: site,
                     search_result: null,
                     suggestionAttribute: "name",
-                    keys: ["name", "description", "tags", "store.name"],
+                    keys: ["name", "description", "tags", "keywords", "store.name"],
                     headerReady: false
                 }
             },
