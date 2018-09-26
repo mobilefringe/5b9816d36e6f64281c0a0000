@@ -11,7 +11,7 @@
                 <div class="main_container mobile_padding margin_30">
                     <div class="details_row">
                         <div class="details_col_3 hidden_phone">
-                            <img class="img_max" src="http://via.placeholder.com/220x600" alt="" />    
+                            <img class="img_max" src="//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/jpeg/1537546048000/SideBanner9.jpg" alt="" />    
                         </div>
                         <div class="details_col_9">
                             <!-- PROMOTIONS -->
@@ -119,7 +119,7 @@
                                     value.image_url = value.store.store_front_url_abs;    
                                 }
                             } else {
-                                value.image_url = "//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/jpeg/1537545921000/PH2.jpg"
+                                value.image_url = "//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/jpeg/1537545921000/PH1.jpg"
                             }
                             
                             value.description_short = _.truncate(value.description, { 'length': 100, 'separator': ' ' });
