@@ -119,7 +119,7 @@
                                     value.image_url = value.store.store_front_url_abs;    
                                 }
                             } else {
-                                value.image_url = site.default_logo_url; //"//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/png/1531496516000/promo placeholder.png";    
+                                value.image_url = "//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/jpeg/1537545921000/PH2.jpg"
                             }
                             
                             value.description_short = _.truncate(value.description, { 'length': 100, 'separator': ' ' });
