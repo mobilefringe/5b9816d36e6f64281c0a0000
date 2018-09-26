@@ -76,7 +76,7 @@
             },
             created () {
                 var socialFeed = this.findRepoByName("Leasing Images");
-                if(socialFeed != null && socialFeed !== undefined && socialFeed.images.length > 0){
+                if(socialFeed != null && socialFeed !== undefined && socialFeed.images && socialFeed.images.length > 0){
                     socialFeed = socialFeed.images;
                     this.leasingFeed = _.slice(socialFeed, [0], [14]);
                 }
