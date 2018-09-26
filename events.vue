@@ -11,7 +11,7 @@
                 <div class="main_container mobile_padding margin_30">
                     <div class="details_row">
                         <div class="details_col_3 hidden_phone">
-                            <img class="img_max" src="//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/jpeg/1537546048000/SideBanner8.jpg" alt="" />    
+                            <img class="img_max" src="http://via.placeholder.com/220x600" alt="" />    
                         </div>
                         <div class="details_col_9">
                             <!-- EVENTS -->
