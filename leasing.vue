@@ -95,7 +95,7 @@
                     
                     var leasing_docs = this.findRepoByName('Leasing Documents');
                     var _this = this;
-                    if (leasing_docs != null && leasing_doc != undefined) {
+                    if (leasing_docs != null && leasing_docs != undefined) {
                         leasing_docs = leasing_docs.images;
                         _.forEach(leasing_docs, function(value, key) {
                             if (value.id == 44839) {
