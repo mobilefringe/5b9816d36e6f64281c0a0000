@@ -62,6 +62,7 @@
                                  console.log("temp_repo", temp_repo)
                                temp_repo = temp_repo.images;
                                _this.pageBanner = temp_repo[0];
+                               console.log("_this.pageBanner", _this.pageBanner)
                             }
                             else {
                                 _this.pageBanner = {
