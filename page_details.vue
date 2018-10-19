@@ -59,10 +59,8 @@
                             var temp_repo = _this.findRepoByName('Pages Banner');
                            
                             if(temp_repo !== null && temp_repo !== undefined) {
-                                 console.log("temp_repo", temp_repo)
                                temp_repo = temp_repo.images;
                                _this.pageBanner = temp_repo[0];
-                               console.log("_this.pageBanner", _this.pageBanner)
                             }
                             else {
                                 _this.pageBanner = {
