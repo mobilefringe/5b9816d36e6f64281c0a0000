@@ -18,12 +18,12 @@
                         <div class="col-sm-12">
                             <div>
                                 <router-link to="/leasing/permanent" class="hvr-icon-forward">
-    	                            <i class="fa fa-caret-right hvr-icon"></i> <span class="read_more">Long Term Leasing Form</span>
+    	                            <i class="fa fa-caret-right hvr-icon"></i> <span class="read_more">Permanent Term Leasing Form</span>
                                 </router-link>
                             </div>
                             <div>
                                 <router-link to="/leasing/specialty" class="hvr-icon-forward">
-    	                            <i class="fa fa-caret-right hvr-icon"></i> <span class="read_more">Short Term Leasing Form</span>
+    	                            <i class="fa fa-caret-right hvr-icon"></i> <span class="read_more">Specialty Term Leasing Form</span>
                                 </router-link>
                             </div>
                         </div>
@@ -98,7 +98,7 @@
                     if (leasing_docs != null && leasing_doc != undefined) {
                         leasing_docs = leasing_docs.images;
                         _.forEach(leasing_docs, function(value, key) {
-                            if (value.id == 41067) {
+                            if (value.id == 44839) {
                                 _this.leasingPlans = value.image_url;
                             }   
                             if (value.id == 41068) {
