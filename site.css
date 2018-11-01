@@ -350,7 +350,7 @@ img{
     -ms-flex-pack: end;
     justify-content: flex-end;
     font-family: Avenir-Heavy;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
 #primary_nav ul {
     margin: 0;
@@ -383,6 +383,7 @@ img{
 	left: 0;
 	background: rgba(0,0,0,0.8);
 	text-transform: none;
+	width:100%;
 }
 #primary_nav ul ul .dropdown_item {
     padding: 5px 10px;
