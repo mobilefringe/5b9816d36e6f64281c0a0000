@@ -159,7 +159,7 @@ img{
 }
 .site_logo {
     width: 250px;
-    margin: 10px auto;
+    // margin: 10px auto;
     height:auto;
     // margin-bottom: 10px;
     img {
