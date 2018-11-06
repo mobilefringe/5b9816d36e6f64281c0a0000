@@ -59,7 +59,7 @@
                         this.$store.dispatch('LOAD_PAGE_DATA', { url: this.property.mm_host + "/pages/" + _this.id + ".json" }).then(function (response) {
                             var temp_repo = _this.findRepoByName('Pages Banner');
                            
-                            if(temp_repo !== null && temp_repo !== undefined) {
+                            if(temp_repo  && temp_repo.images) {
                                temp_repo = temp_repo.images;
                                _this.pageBanner = temp_repo[0];
                             }
