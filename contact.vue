@@ -92,7 +92,7 @@
             created() {
                 this.loadData().then(response => {
                     var temp_repo = this.findRepoByName('Contact Us Banner');
-                    if(temp_repo !== null && temp_repo !== undefined) {
+                    if(temp_repo && temp_repo.images) {
                        temp_repo = temp_repo.images;
                        this.pageBanner = temp_repo[0];
                     }
