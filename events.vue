@@ -79,6 +79,7 @@
                     dataLoaded: false,
                     pageBanner: null,
                     toggleEvents: false,
+				    sideBanner:null
                 }
             },
             created (){
