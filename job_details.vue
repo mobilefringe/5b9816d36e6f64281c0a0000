@@ -60,6 +60,7 @@
                     pageBanner: null,
                     currentJob: null,
                     siteInfo: site,
+				    sideBanner:null
                 }
             },
             created() {
