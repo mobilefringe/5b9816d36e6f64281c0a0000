@@ -79,7 +79,8 @@
                 return {
                     dataLoaded: false,
                     pageBanner: null,
-                    togglePromos: false
+                    togglePromos: false,
+				    sideBanner:null
                 }
             },
             created (){
