@@ -68,7 +68,14 @@
                                     "image_url": "//codecloud.cdn.speedyrails.net/sites/5b9816d36e6f64281c0a0000/image/png/1531495616000/inside_banner.png"
                                 }
                             }
-                            
+                            var temp_repo1 = _this.findRepoByName('Pages Side Banner');
+                            if(temp_repo1 != null) {
+                                _this.sideBanner = temp_repo1.images[0];
+                            } else {
+                                _this.sideBanner = {
+                                    "image_url": "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1531495616000/inside_banner.png"
+                                }
+                            } 
                             _this.currentPage = response.data;
                             _this.dataLoaded = true;
                         }, function (error) {
