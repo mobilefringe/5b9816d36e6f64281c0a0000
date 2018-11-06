@@ -112,7 +112,8 @@
                     tempLeasing: null,
                     form_data: {},
                     formSuccessTemp: false,
-                    formErrorTemp: false
+                    formErrorTemp: false,
+				    sideBanner:null
                 }
             },
             created() {
