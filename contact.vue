@@ -102,7 +102,7 @@
                         }
                     }
                     var temp_repo1 = this.findRepoByName('Contact Side Banner');
-                    if(temp_repo1 != null && temp_repo1 !== undefined) {
+                    if(temp_repo1 != null && temp_repo1 !== undefined && temp_repo1.images) {
                         this.sideBanner = temp_repo1.images[0];
                     } else {
                         this.sideBanner = {
