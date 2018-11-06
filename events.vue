@@ -95,13 +95,13 @@
                         }
                     }
                     var temp_repo1 = this.findRepoByName('Events Side Banner').images;
-                if(temp_repo1 != null) {
-                    this.sideBanner = temp_repo1[0];
-                } else {
-                    this.sideBanner = {
-                        "image_url": "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1531495616000/inside_banner.png"
-                    }
-                } 
+                    if(temp_repo1 != null) {
+                        this.sideBanner = temp_repo1[0];
+                    } else {
+                        this.sideBanner = {
+                            "image_url": "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1531495616000/inside_banner.png"
+                        }
+                    } 
                     this.dataLoaded = true;
                 });
             },
