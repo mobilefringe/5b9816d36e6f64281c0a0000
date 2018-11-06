@@ -85,7 +85,7 @@
             created (){
                 this.loadData().then(response => {
                     var temp_repo = this.findRepoByName('Events Banner');
-                    if(temp_repo !== null && temp_repo !== undefined) {
+                    if(temp_repo  && temp_repo.images) {
                        temp_repo = temp_repo.images;
                        this.pageBanner = temp_repo[0];
                     }
@@ -96,7 +96,7 @@
                     }
                     var temp_repo1 = this.findRepoByName('Events Side Banner');
                     if(temp_repo1 && temp_repo1.images) {
-                        this.sideBanner = temp_repo1images[0];
+                        this.sideBanner = temp_repo1.images[0];
                     } else {
                         this.sideBanner = {
                             "image_url": ""
