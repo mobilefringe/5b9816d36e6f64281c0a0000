@@ -85,7 +85,8 @@
                     formSuccess: false,
                     formError: false,
                     time: new Date(),
-                    currentPage: null
+                    currentPage: null,
+                    sideBanner: null
                 }
             },
             created() {
