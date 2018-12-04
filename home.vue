@@ -8,12 +8,10 @@
                         <div v-for="banner in homeBanners">
                             <a v-if="banner.url" :href="banner.url" class="">
                                 <div class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }">
-                                    <div class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }">
                                     <div class="banner_text site_container" v-if="banner.name && banner.description">
                                         <h2 class="banner_title">{{banner.name}}</h2>
                                         <p class="banner_desc">{{banner.description}}</p>
                                     </div>
-                                </div>
                                 </div>
                             </a>
                             <div v-else class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }"></div>
