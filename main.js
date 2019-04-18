@@ -40,11 +40,22 @@ require.config({
         'mapplic' : 'https://preview-mmvue.codecloudapp.com/mapplic',
         'hammer' : 'https://codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min',
         'mapplic-map' : 'https://preview-mmvue.codecloudapp.com/mapplic.vue?noext',
-        'loader': 'https://mmvue.codecloudapp.com/loader.vue?noext'
+        'loader': 'https://mmvue.codecloudapp.com/loader.vue?noext',
+        'bugsnag' : 'https://mmvue.codecloudapp.com/bugsnag',
+        'bugsnag-vue' : 'https://mmvue.codecloudapp.com/bugsnag-vue'
     }
 });
 
-require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-sync', 'datastore', 'vue-i18n', 'locales', 'moment', 'vue-meta', 'vue!loading.vue', 'vue!header.vue', 'vue!footer.vue', 'json!menu_items.json', 'vue!loader.vue'], function (Vue, Vuex, Vue2Filters, VueRouter, appRoutes, VuexRouterSync, store, VueI18n, messages, moment, Meta, LoadingComponent, HeaderComponent, FooterComponent, MenuItems, Loader) {
+requirejs.onError = function (err) {
+    if (err.requireType === 'timeout') {
+        window.bugsnagClient.notify(err);
+    } else {
+        window.bugsnagClient.notify(err);
+        throw err;
+    }
+};
+
+require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-sync', 'datastore', 'vue-i18n', 'locales', 'moment', 'vue-meta', 'vue!loading.vue', 'vue!header.vue', 'vue!footer.vue', 'json!menu_items.json', 'vue!loader.vue', 'bugsnag', 'bugsnag-vue'], function (Vue, Vuex, Vue2Filters, VueRouter, appRoutes, VuexRouterSync, store, VueI18n, messages, moment, Meta, LoadingComponent, HeaderComponent, FooterComponent, MenuItems, Loader, bugsnag, bugsnagVue) {
 
     Vue.use(Meta);
     Vue.use(VueRouter);
