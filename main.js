@@ -62,6 +62,10 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
     Vue.use(Vue2Filters);
     Vue.use(VueI18n);
     
+    /* BugSnag */
+    const bugsnagClient = bugsnag('5a0548a8e4ba1c7bcd788ec65f581831')
+    bugsnagClient.use(bugsnagVue, Vue)
+    
     /* initialize router */
     const router = new VueRouter({
         mode: 'history',
