@@ -163,15 +163,15 @@
                             perm_formdata.mailto = "sankavy@mobilefringe.com"//"huntleyj@davpart.com";
                             perm_formdata.from_email = this.form_data.email
                             perm_formdata.subject = this.property.name +" Long Term Leasing Form"; 
-                            perm_formdata.body = {};
-                            perm_formdata.body["Legal Name of Organization"] =  this.form_data.legalName;
+                            perm_formdata.custom = {};
+                            perm_formdata.custom["Legal Name of Organization"] =  this.form_data.legalName;
                              
-                            perm_formdata.body["Contact First Name"] =   this.form_data.firstName, 
-                            perm_formdata.body["Contact Last Name"] = this.form_data.lastName,
-                            perm_formdata.body["Contact Phone Number"] = this.form_data.phone, 
-                            perm_formdata.body["Contact Email Address" ] =  this.form_data.email, 
-                            perm_formdata.body["Square Footage Required"] =  this.form_data.size, 
-                            perm_formdata.body["Comments"] =  this.form_data.comments,
+                            perm_formdata.custom["Contact First Name"] =   this.form_data.firstName, 
+                            perm_formdata.custom["Contact Last Name"] = this.form_data.lastName,
+                            perm_formdata.custom["Contact Phone Number"] = this.form_data.phone, 
+                            perm_formdata.custom["Contact Email Address" ] =  this.form_data.email, 
+                            perm_formdata.custom["Square Footage Required"] =  this.form_data.size, 
+                            perm_formdata.custom["Comments"] =  this.form_data.comments,
                             
                             send_data.form_data = Utility.serializeObject(perm_formdata);
                             console.log("Data ", send_data.form_data)
