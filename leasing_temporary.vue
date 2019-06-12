@@ -169,18 +169,18 @@
                             send_data.url = "https://www.mallmaverick.com/custom_email";
                             var temp_formdata = {}; //JSON.stringify(this.serializeObject(this.form_data));
                             temp_formdata.mailto = "huntleyj@davpart.com,malvern@davpart.com";
-                            temp_formdata.from_email = this.form_data.emailTemp, 
+                            temp_formdata.from_email = this.form_data.emailTemp;
                             temp_formdata.subject = this.property.name + " Specialty Term Leasing Form"; 
                             temp_formdata.custom = {};
                             temp_formdata.custom["Legal Name of Organization"] =  this.form_data.legalNameTemp;
-                            temp_formdata.custom["Contact First Name"] =   this.form_data.firstNameTemp, 
-                            temp_formdata.custom["Contact Last Name"] = this.form_data.lastNameTemp,
-                            temp_formdata.custom["Contact Phone Number"] = this.form_data.phoneTemp, 
-                            temp_formdata.custom["Contact Email Address"] =  this.form_data.emailTemp, 
-                            temp_formdata.custom["Requested Start Date"] =  this.form_data.startDate, 
-                            temp_formdata.custom["Requested End Date"] =  this.form_data.endDate, 
-                            temp_formdata.custom["Requested Location"] =  this.form_data.location, 
-                            temp_formdata.custom["Proposed Use of Space"] =  this.form_data.use_of_space, 
+                            temp_formdata.custom["Contact First Name"] =   this.form_data.firstNameTemp;
+                            temp_formdata.custom["Contact Last Name"] = this.form_data.lastNameTemp;
+                            temp_formdata.custom["Contact Phone Number"] = this.form_data.phoneTemp; 
+                            temp_formdata.custom["Contact Email Address"] =  this.form_data.emailTemp;
+                            temp_formdata.custom["Requested Start Date"] =  this.form_data.startDate;
+                            temp_formdata.custom["Requested End Date"] =  this.form_data.endDate;
+                            temp_formdata.custom["Requested Location"] =  this.form_data.location;
+                            temp_formdata.custom["Proposed Use of Space"] =  this.form_data.use_of_space;
                             
                             send_data.form_data = Utility.serializeObject(temp_formdata);
                             var vm = this;
