@@ -166,7 +166,7 @@
                             let errors = this.errors;
                             //format email
                             send_data = {};
-                            send_data.url = "https://www.mallmaverick.com/send_contact_email";
+                            send_data.url = "https://www.mallmaverick.com/custom_email";
                             var temp_formdata = {}; //JSON.stringify(this.serializeObject(this.form_data));
                             temp_formdata.send_to = "huntleyj@davpart.com,malvern@davpart.com,alex@mobilefringe.com";
                             temp_formdata.subject = this.property.name + " Specialty Term Leasing Form"; 
