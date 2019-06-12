@@ -168,7 +168,7 @@
                             send_data = {};
                             send_data.url = "https://www.mallmaverick.com/custom_email";
                             var temp_formdata = {}; //JSON.stringify(this.serializeObject(this.form_data));
-                            temp_formdata.mailto = "sankavy@mobilefringe.com";//"huntleyj@davpart.com,malvern@davpart.com";
+                            temp_formdata.mailto = "huntleyj@davpart.com,malvern@davpart.com";
                             temp_formdata.from_email = this.form_data.emailTemp;
                             temp_formdata.subject = this.property.name + " Specialty Term Leasing Form"; 
                             temp_formdata.custom = {};
