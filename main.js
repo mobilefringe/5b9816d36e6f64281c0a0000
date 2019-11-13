@@ -57,7 +57,10 @@ requirejs.onError = function (err) {
 
 require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-sync', 'datastore', 'vue-i18n', 'locales', 'moment', 'vue-meta', 'vue!loading.vue', 'vue!header.vue', 'vue!footer.vue', 'json!menu_items.json', 'vue!loader.vue', 'bugsnag', 'bugsnag-vue'], function (Vue, Vuex, Vue2Filters, VueRouter, appRoutes, VuexRouterSync, store, VueI18n, messages, moment, Meta, LoadingComponent, HeaderComponent, FooterComponent, MenuItems, Loader, bugsnag, bugsnagVue) {
 
-    Vue.use(Meta);
+    Vue.use(Meta, {
+       keyName: 'metaInfo', // the component option name that vue-meta looks for meta info on.
+       tagIDKeyName: 'vmid' // the property name that vue-meta uses to determine whether to overwrite or append a tag
+    });
     Vue.use(VueRouter);
     Vue.use(Vue2Filters);
     Vue.use(VueI18n);
