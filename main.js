@@ -154,7 +154,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
                     this.property.mm_host = this.property.mm_host.replace("http:", "");     
                      
                     let results = await Promise.all([this.$store.dispatch("INITIALIZE_LOCALE"), this.$store.dispatch("getData", "hours"), this.$store.dispatch("getData", "stores"), this.$store.dispatch("getData", "repos"),this.$store.dispatch("getData", "events"),this.$store.dispatch("getData", "promotions"),this.$store.dispatch("getData", "jobs")]);
-                    await Promise.all([this.$store.dispatch("LOAD_META_DATA")]);
+                    await Promise.all([this.$store.dispatch("LOAD_META_DATA_NEW")]);
                 } catch (e) {
                     console.log("Error loading data: " + e.message);    
                 }
