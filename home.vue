@@ -44,7 +44,7 @@
     </div>
 </template>
 <script>
-    define(["Vue", "vuex", "vue!vue-slick", "vue!welcome_msg"], function (Vue, Vuex, slick, welcomeMessage) {
+    define(["Vue", "vuex", "vue-meta", "vue!vue-slick", "vue!welcome_msg"], function (Vue, Vuex, Meta, slick, welcomeMessage) {
         return Vue.component("home-component", {
             template: template, // the variable template will be injected
             data: function() {
